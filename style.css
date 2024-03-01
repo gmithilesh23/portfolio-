@@ -1,0 +1,55 @@
+body {
+    background: #5FD;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .separator {
+    width: 30%;
+  }
+  
+  .title {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+    a {
+      color: #DB4D57;
+      
+      &:hover {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    
+    hr {
+      width: 75%;
+    }
+  }
+  
+  .summary {
+    padding: 20px;
+    
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
+  
+  
+  .work-experience {
+    padding: 20px;
+    
+    .experience-title {
+      margin-top: 50px;
+    }
+    
+    .experience-summary {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
