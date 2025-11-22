@@ -1,52 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mithilesh G Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-    
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="title text-center">
-          <h1>Mithilesh</h1>
-          <h3>Developer</h3
-          <hr />
-          
-        </div>
-        
-        <!-- summary section -->
-        <div class="summary">
-          <h2 class="text-center">Summary</h2>
-          <p>Aspiring developer with a strong passion for coding and a desire to contribute to innovative projects. I can working dynamic environment to gain hands-on experience and further develop expertise in software development.
 
-          </p>
-          
-          <div class="row">
-            <div class="col-md-3 col-sm-3">
-              <p>Business Analysis</p>
-              <p>Project Management</p>
-              <p>WordPress Management</p>
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <p>Development</p>
-              <p>Design</p>
-            </div>
-          </div>
-          
-        </div>
+  
+  <header>
+    <h2 class="logo">Mithilesh Govindasamy</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#tools">Tools</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <!-- work experience section -->
-        <div class="some project">
-            <div class="col-md-9">
-              <h5>Some project</h5>
-              <p>1.The objective of the abandoned baggage detection is to develop a system that can effectively identify the unattended or suspicious luggage or baggage in public places like airports, railway station etc.
-            </p>
-            <p>2.The objective of this project is to build a system that can analyze old fashion design products,then analyze it and generate a new fashion design product picture. It would be a valuable tool for fashion designer who wants to create a new fashion design.
-            </p>
-            </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero" data-aos="fade-up">
 
+  <div class="profile-container">
+    <img src="./profile.jpg" class="profile" alt="Profile Picture">
+  </div>
+
+  <h1>Hello, I'm <span class="highlight">Mithilesh G</span></h1>
+
+  <p class="subtitle">AI & Machine Learning Engineer | Data Analyst | Full-Stack Developer</p>
+
+  <p class="typing-container">
+    <span id="typing"></span>
+  </p>
+
+  <div class="hero-buttons">
+    <button onclick="scrollToSection('projects')" class="primary-btn">🚀 View My Work</button>
+    <a class="secondary-btn" href="https://drive.google.com/file/d/189tqY-ZBsrxY98S23_FGXF3vAj8gR5fq/view?usp=sharing" target="_blank">📄 Resume</a>
+  </div>
+
+  <div class="social-icons">
+    <a href="" target="_blank" class="social">🔗 LinkedIn</a>
+    <a href="https://github.com/gmithilesh23" target="_blank" class="social">🐙 GitHub</a>
+    <a href="mailto:mithileshai25@gmail.com" class="social">✉️ Email</a>
+  </div>
+
+  <p class="tagline">Building intelligent systems one model at a time.</p>
+
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      I am an Artificial Intelligence & Machine Learning enthusiast with expertise in building real-world 
+      applications using predictive models, automation, and data analytics. I enjoy working on projects involving 
+      AIML, dashboards, model optimization, and business intelligence.
+    </p>
+    <ul>
+      <li><strong>Email:</strong> mithileshai25@gmail.com</li>
+      <li><strong>Phone:</strong> 8300592839</li>
+      <li><strong>Location:</strong> Erode, India</li>
+    </ul>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education" data-aos="fade-left">
+  <h2>🎓 Education</h2>
+
+  <div class="edu-card">
+    <h3>B.Tech — Artificial Intelligence & Machine Learning</h3>
+    <p class="institution">M. Kumarasamy College of Engineering, Karur, India</p>
+    <p class="duration">2021 – 2025</p>
+
+    <ul class="edu-details">
+      <li>CGPA: <strong>7.2 / 10</strong> (optional—add if available)</li>
+      <li>Completed coursework in:
+        <ul class="sub-list">
+          <li>Machine Learning & Deep Learning</li>
+          <li>Data Analytics & Data Visualization</li>
+          <li>Neural Networks & Computer Vision</li>
+          <li>Python Programming & Applied AI</li>
+        </ul>
+      </li>
+      <li>Final Year Project: <strong>Real-Time Assistive Gesture-to-Speech System for Speech-Impaired Individuals</strong></li>
+    </ul>
+  </div>
+
+  <div class="edu-card">
+    <h3>Professional Certification — Data Analytics</h3>
+    <p class="institution">QSpiders, Bengaluru</p>
+    <p class="duration">Completed: September 2025</p>
+
+    <ul class="edu-details">
+      <li>Hands-on training in:
+        <ul class="sub-list">
+          <li>Excel & Advanced Data Cleaning</li>
+          <li>SQL for Data Querying</li>
+          <li>Power BI Dashboarding</li>
+          <li>Python for Data Analysis</li>
+        </ul>
+      </li>
+      <li>Completed real-time projects using Power BI & SQL</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills" data-aos="zoom-in">
+    <h2>Technical Skills</h2>
+    <div class="skill-bar">
+      <p>Python</p>
+      <div><span style="width: 90%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>Java</p>
+      <div><span style="width: 80%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>SQL</p>
+      <div><span style="width: 85%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>Power BI</p>
+      <div><span style="width: 75%"></span></div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section id="tools" class="tools" data-aos="fade-up">
+  <h2>Tools & Technologies</h2>
+  <ul class="tools-list">
+    <li>
+      <strong>Power BI:</strong> Used for creating interactive dashboards and business intelligence reports.
+    </li>
+    <li>
+      <strong>Tableau:</strong> Helps in visualizing complex datasets with user-friendly charts and graphs.
+    </li>
+    <li>
+      <strong>VS Code:</strong> Lightweight IDE for coding in Python, Java, and front-end technologies efficiently.
+    </li>
+    <li>
+      <strong>Jupyter Notebook:</strong> Used for prototyping machine learning models, data analysis, and visualization.
+    </li>
+    <li>
+      <strong>Oracle AI Tools:</strong> Enables building and deploying AI & ML solutions for enterprise applications.
+    </li>
+    <li>
+      <strong>Git & GitHub:</strong> For version control, collaboration, and managing project repositories.
+    </li>
+    <li>
+      <strong>Excel (Advanced):</strong> Used for data cleaning, analysis, and creating pivot tables and charts.
+    </li>
+    <li>
+      <strong>Google Colab:</strong> Cloud-based notebooks for running Python & ML experiments without setup.
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Mediguide</h3>
+      <p>
+        A smart ML-based prescription system using Decision Tree Classifier. Predicts diseases from symptoms 
+        and recommends medicines, diets, precautions, and exercise plans.
+      </p>
+      <small><strong>IEEE Published | Paper ID: AIDE2025-436</strong></small>
+    </div>
+    <div class="project-card">
+      <h3>Idea Wizard Using Opinion Mining</h3>
+      <p>
+        AI-powered web tool using SVM for analyzing business datasets and generating profitable improvement ideas using sentiment insights.
+      </p>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates" data-aos="fade-left">
+    <h2>Certificates</h2>
+    <ul>
+      <li>
+        <strong>Generative AI Certification</strong> – Oracle (2025)  
+        <br>Skills: Applying AI models for real-world use cases.
+      </li>
+      <li>
+        <strong>Problem Solving Certification</strong> – HackerRank (2024)  
+        <br>Proficiency in algorithms, data structures, and coding challenges.
+      </li>
+      <li>
+        <strong>Java Programming Certification</strong> – ICT Academy (2024)  
+        <br>Skills: Core Java, OOP concepts, and practical programming.
+      </li>
+      <li>
+        <strong>Data Analytics Certification</strong> – Qspiders (2025)  
+        <br>Focus: Data preprocessing, visualization, and analysis.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements" data-aos="fade-right">
+    <h2>Achievements</h2>
+    <ul>
+      <li>
+        <strong>Student of the Month</strong> – M. Kumarasamy College of Engineering (03/2024)  
+        Recognized for outstanding academic and leadership contributions.
+      </li>
+      <li>
+        <strong>Cricket Tournament – 2nd Place</strong> – M. Kumarasamy College of Engineering (2024)  
+        Represented college in inter-department cricket competition.
+      </li>
+      <li>
+        <strong>MarchPast Department Representation – 2nd Place</strong> (2024)  
+        Led department in annual college march-past event.
+      </li>
+      <li>
+        <strong>Department Symposium & Hackathon Coordinator</strong>  
+        Organized technical events and guided participants during the college symposium.
+      </li>
+      <li>
+        <strong>Class Representative – 3rd Semester</strong>  
+        Acted as liaison between students and faculty for academic and administrative matters.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact" data-aos="zoom-in">
+  <h2>📩 Contact</h2>
+  
+  <p class="contact-text">
+    To connect! Whether you have a project idea, collaboration request, or just want to say hello —
+    feel free to reach out using the details below.
+  </p>
+
+  <div class="contact-details">
+    <p><strong>📧 Email:</strong> mithileshai25@gmail.com</p>
+    <p><strong>📞 Phone:</strong> +91 8300592839</p>
+    <p><strong>📍 Location:</strong> Erode, India</p>
+  </div>
+
+  <div class="contact-buttons">
+    <a href="mailto:mithileshai25@gmail.com" class="contact-btn">Send Email ✉️</a>
+    <a href="https://wa.me/918300592839" target="_blank" class="contact-btn whatsapp">💬 WhatsApp</a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Mithilesh G | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
